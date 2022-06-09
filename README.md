@@ -11,14 +11,14 @@ This application fetches a new random quote from an API, upon the click of a but
 
 ## Some Snaps from the app
 <p>
-![1](https://user-images.githubusercontent.com/87069619/172839960-6ae4149b-5621-416d-9c64-163c09cc473a.png)
-![2](https://user-images.githubusercontent.com/87069619/172840523-f82289ca-b2ac-4c58-a9a3-edd971900436.png)
+![1](https://user-images.githubusercontent.com/87069619/172840654-ed977370-36e4-4ae4-99e1-c8cb703893a1.png)
+![1](https://user-images.githubusercontent.com/87069619/172841093-90f3e80c-0112-45f3-b17d-1d89e20c899f.png)
 
 </p>
 <p>
  ## On Phone
  <p>
-![3](https://user-images.githubusercontent.com/87069619/172840274-57f0334c-a809-41c2-99e0-615f15e50bd6.png)
+
 
 </p>
 
