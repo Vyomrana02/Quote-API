@@ -1,31 +1,44 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Random Quote Generator">
-        <meta name="keywords" content="HTML,CSS,JavaScript, Quotes, API">
-        <meta name="author" content="Neha Soni">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Random Quote Generator</title>
-        <link rel="stylesheet" href="style.css">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    </head>
-    <body>
-        <div class="container">
-            <h1>
-            <i class="fas fa-quote-left"></i>
-            <span class="quote" id="quote"></span>
-            <i class="fas fa-quote-right"></i>
-            </h1>
-            <p class="author" id="author"></p>
-            
-            <hr/>
-            <div class="buttons">
-                <a class="twitter" id="tweet" data-size="large" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                
-                <button class="next" onclick="getNewQuote()">Next quote</button>
-            </div>
-        </div>
-     <script src="script.js"></script>
-    </body>
+<head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta charset="UTF-8">
+  <title>Random Architecture Quote Generator</title>
+  <meta content="" name="description">
+  <meta content="Sebastian Kulig" name="author">
+  <link href="reset.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <header class="transparent">
+      <h1>Random Architecture Quote Generator</h1>
+    </header>
+    <main class="quote-box border">
+
+      <div class="quote-area">
+        <q id="quote">Random Quote</q>
+      </div>
+
+      <div class="author-area">
+        <p id="author">Author</p>
+      </div>
+
+      <div class="buttons-area">
+        <a class="btn border-smaller" id="random-quote" href="#" title="Next Quote">Random Quote</a>
+        <a class="btn border-smaller" id="tweet-quote" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet this quote"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+
+    </main>
+    <footer class="transparent">
+      <p>Coded by Sebastian - see source on <a href="https://github.com/sebam2k4/Random-Quote-Generator-JS">GitHub</a></p>
+    </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+
 </html>
