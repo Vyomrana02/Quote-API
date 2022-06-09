@@ -17,3 +17,5 @@ This application fetches a new random quote from an API, upon the click of a but
 I would ❤ to connect with you at <a href="https://www.linkedin.com/in/vyomrana/">LinkedIn</a>
 
  ### Show some ❤️ by starring some of the repositories!
+
+![Screenshot_1](https://user-images.githubusercontent.com/87069619/171123465-100a050a-e108-44d7-afb5-121ef46a4558.png)
