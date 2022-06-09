@@ -1,7 +1,3 @@
-/* jshint browser: true */
-/* jshint esversion: 6 */
-
-//Make sure DOM is ready
 document.addEventListener("DOMContentLoaded",function(){
   
     // DATA
@@ -37,45 +33,31 @@ document.addEventListener("DOMContentLoaded",function(){
                         ["#B2EBF2", "#26C6DA", "#0097A7"],
                         ["#BCAAA4", "#795548", "#3E2723"]];
     
-    // VARIABLES
+ 
       let oldQuoteIndex;
       let oldColorIndex;
     
-    //Generate a random number based on argument's length
+
       function generateNumber(dataPool) {
         return Math.floor(Math.random() * dataPool.length);
       }
-    
-    //1. Get random number from generateNumber()
-    //2. check random number to make sure it's not same as last one
-    //3. Use random number to get new quote from array
-    //4. Display the quote
+  
       function generateNewQuote() {
         let index = generateNumber(quotesPool);
-    //While loop so no same quote is generated in a row
         while (index === oldQuoteIndex) {
           index = generateNumber(quotesPool);
         }
         let newQuote = quotesPool[index];
         let quote = document.getElementById("quote");
         let author = document.getElementById("author");
-    //Show new quote and author on page
         quote.innerHTML = newQuote[0];
         author.innerHTML = newQuote[1];
-    //Update Tweet href attribute with new quote and author
         let tweet = document.getElementById("tweet-quote");
         tweet.href = 'https://twitter.com/intent/tweet?hashtags=quotes&text="' + newQuote[0] + '" -' + newQuote[1];
-    //update index checker
         oldQuoteIndex = index;
       }
-    
-    //1. Get random number from generateNumber()
-    //2. check random number to make sure it's not same as last one
-    //3. Use random number to get new color scheme from array
-    //4. Update page with new color scheme
       function generateNewColor() {
         let index = generateNumber(colorsPool);
-    // While loop so no same color scheme is generated in a row
         while (index === oldColorIndex) {
           index = generateNumber(colorsPool);
         }
@@ -87,8 +69,7 @@ document.addEventListener("DOMContentLoaded",function(){
         let border = document.querySelector(".border");
         let randomQuoteBorder = document.querySelectorAll(".border-smaller")[0];
         let twitterBorder = document.querySelectorAll(".border-smaller")[1];
-    //Update page with new color scheme
-        randomQuoteButton.style.background = colorShade[0];
+       randomQuoteButton.style.background = colorShade[0];
         twitterButton.style.background = colorShade[0];
         background.style.background = colorShade[0];
         text.style.color = colorShade[1];
@@ -98,12 +79,10 @@ document.addEventListener("DOMContentLoaded",function(){
         randomQuoteBorder.style.boxShadow = "3px 3px 0px 2px " + colorShade[2];
         twitterBorder.style.borderColor = colorShade[1];
         twitterBorder.style.boxShadow = "3px 3px 0px 2px " + colorShade[2];
-    //update index checker
-        oldColorIndex = index;
+       oldColorIndex = index;
       }
     
-    //Show new quote and change color scheme on 'Random Quote' button click
-      function onQuoteButtonClick() {
+     function onQuoteButtonClick() {
         let randomQuoteButton = document.querySelector("#random-quote");
         randomQuoteButton.addEventListener("click", function(){
           generateNewQuote();
@@ -113,8 +92,7 @@ document.addEventListener("DOMContentLoaded",function(){
     
       onQuoteButtonClick();
     
-    // Get the first quote and color scheme on window load
-      window.onload = function () {
+     window.onload = function () {
         generateNewQuote();
         generateNewColor();
       };
