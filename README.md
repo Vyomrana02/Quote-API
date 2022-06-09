@@ -15,6 +15,8 @@ This application fetches a new random quote from an API, upon the click of a but
 ![2](https://user-images.githubusercontent.com/87069619/172841957-e4d421a1-2d4a-450d-9cfb-e8448413c615.png)
 
 ##On Phone
+
+
 ![3](https://user-images.githubusercontent.com/87069619/172841995-c73d980c-495a-40b2-9899-fa9151609dd2.png)
 
 
