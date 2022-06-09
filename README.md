@@ -12,6 +12,7 @@ This application fetches a new random quote from an API, upon the click of a but
 ## Some Snaps from the app
 <p>
 ![1](https://user-images.githubusercontent.com/87069619/172839960-6ae4149b-5621-416d-9c64-163c09cc473a.png)
+![2](https://user-images.githubusercontent.com/87069619/172840068-f1a1ecd0-6844-48ce-a454-faf61ce4c43c.png)
 
 </p>
 
