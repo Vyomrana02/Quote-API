@@ -11,11 +11,7 @@ This application fetches a new random quote from an API, upon the click of a but
 
 ## Some Snaps from the app
 <p>
-
-
-
-
-
+![1](https://user-images.githubusercontent.com/87069619/172841093-90f3e80c-0112-45f3-b17d-1d89e20c899f.png)
 </p>
 
 I would ❤ to connect with you at <a href="https://www.linkedin.com/in/vyomrana/">LinkedIn</a>
